@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		490E7740219D69700052B71F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E773F219D69700052B71F /* AppDelegate.swift */; };
-		490E7742219D69700052B71F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E7741219D69700052B71F /* ViewController.swift */; };
 		490E7747219D69720052B71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490E7746219D69720052B71F /* Assets.xcassets */; };
 		490E774A219D69720052B71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490E7748219D69720052B71F /* LaunchScreen.storyboard */; };
 		490E7753219D6E930052B71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490E7751219D6E930052B71F /* Main.storyboard */; };
+		490E7758219D70130052B71F /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E7755219D70120052B71F /* Chair.swift */; };
+		490E775B219D703F0052B71F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E775A219D703F0052B71F /* Game.swift */; };
+		490E775F219D70D70052B71F /* GameDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E775E219D70D70052B71F /* GameDetailViewController.swift */; };
+		490E7761219D769B0052B71F /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E7760219D769B0052B71F /* GameTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		490E773C219D69700052B71F /* SocialityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		490E773F219D69700052B71F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		490E7741219D69700052B71F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		490E7746219D69720052B71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490E7749219D69720052B71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490E774B219D69720052B71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490E7752219D6E930052B71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Library/Autosave Information/Sociality/Sociality/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		490E7755219D70120052B71F /* Chair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chair.swift; path = "../../../../Desktop/62417/Lesson 03/ChairTableView101/ChairTableView101/Chair.swift"; sourceTree = "<group>"; };
+		490E775A219D703F0052B71F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		490E775E219D70D70052B71F /* GameDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailViewController.swift; sourceTree = "<group>"; };
+		490E7760219D769B0052B71F /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				490E7751219D6E930052B71F /* Main.storyboard */,
 				490E773F219D69700052B71F /* AppDelegate.swift */,
-				490E7741219D69700052B71F /* ViewController.swift */,
 				490E7746219D69720052B71F /* Assets.xcassets */,
 				490E7748219D69720052B71F /* LaunchScreen.storyboard */,
 				490E774B219D69720052B71F /* Info.plist */,
+				490E7755219D70120052B71F /* Chair.swift */,
+				490E775A219D703F0052B71F /* Game.swift */,
+				490E775E219D70D70052B71F /* GameDetailViewController.swift */,
+				490E7760219D769B0052B71F /* GameTableViewController.swift */,
 			);
 			path = SocialityProject;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490E7742219D69700052B71F /* ViewController.swift in Sources */,
+				490E775F219D70D70052B71F /* GameDetailViewController.swift in Sources */,
+				490E7758219D70130052B71F /* Chair.swift in Sources */,
+				490E775B219D703F0052B71F /* Game.swift in Sources */,
 				490E7740219D69700052B71F /* AppDelegate.swift in Sources */,
+				490E7761219D769B0052B71F /* GameTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
