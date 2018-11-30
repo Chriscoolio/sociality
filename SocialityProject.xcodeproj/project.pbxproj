@@ -12,7 +12,6 @@
 		490E774A219D69720052B71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490E7748219D69720052B71F /* LaunchScreen.storyboard */; };
 		490E7753219D6E930052B71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490E7751219D6E930052B71F /* Main.storyboard */; };
 		490E775B219D703F0052B71F /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E775A219D703F0052B71F /* GameType.swift */; };
-		490E775F219D70D70052B71F /* GameDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E775E219D70D70052B71F /* GameDetailViewController.swift */; };
 		490E7761219D769B0052B71F /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E7760219D769B0052B71F /* GameTableViewController.swift */; };
 		493D09CF21A6DC2900284EF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 493D09CE21A6DC2800284EF4 /* GoogleService-Info.plist */; };
 		49477EB421A6E46000B2B321 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49477EB321A6E46000B2B321 /* LoginViewController.swift */; };
@@ -20,6 +19,10 @@
 		49477EB821A6F27200B2B321 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49477EB721A6F27200B2B321 /* ForgotPasswordViewController.swift */; };
 		495F58D9219DA8570025388D /* GameSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F58D8219DA8570025388D /* GameSelectTableViewController.swift */; };
 		495F58DB219DA9EA0025388D /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F58DA219DA9EA0025388D /* Games.swift */; };
+		4963F00521B00469006B556D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963F00421B00469006B556D /* Categories.swift */; };
+		49A07FA521B01C1C00BD3DD9 /* QuizTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A07FA421B01C1C00BD3DD9 /* QuizTableViewController.swift */; };
+		49FD739821AD5DD60086E2FE /* DicerollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD739721AD5DD60086E2FE /* DicerollViewController.swift */; };
+		49FD739A21AD74060086E2FE /* HigherLowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD739921AD74060086E2FE /* HigherLowerViewController.swift */; };
 		603E196ABC41C1AF16D22859 /* Pods_SocialityProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F578A7841DED61CD0C26710 /* Pods_SocialityProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +35,6 @@
 		490E774B219D69720052B71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490E7752219D6E930052B71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Library/Autosave Information/Sociality/Sociality/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		490E775A219D703F0052B71F /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
-		490E775E219D70D70052B71F /* GameDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailViewController.swift; sourceTree = "<group>"; };
 		490E7760219D769B0052B71F /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
 		493D09CE21A6DC2800284EF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49477EB321A6E46000B2B321 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,10 @@
 		49477EB721A6F27200B2B321 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		495F58D8219DA8570025388D /* GameSelectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectTableViewController.swift; sourceTree = "<group>"; };
 		495F58DA219DA9EA0025388D /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		4963F00421B00469006B556D /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		49A07FA421B01C1C00BD3DD9 /* QuizTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewController.swift; sourceTree = "<group>"; };
+		49FD739721AD5DD60086E2FE /* DicerollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicerollViewController.swift; sourceTree = "<group>"; };
+		49FD739921AD74060086E2FE /* HigherLowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherLowerViewController.swift; sourceTree = "<group>"; };
 		B7873E5C6F73B8D847CB5B19 /* Pods-SocialityProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialityProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialityProject/Pods-SocialityProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D41C77BDD23AC29E5051D840 /* Pods-SocialityProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialityProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialityProject/Pods-SocialityProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,11 +92,11 @@
 			isa = PBXGroup;
 			children = (
 				490E7751219D6E930052B71F /* Main.storyboard */,
+				49FD739721AD5DD60086E2FE /* DicerollViewController.swift */,
 				490E773F219D69700052B71F /* AppDelegate.swift */,
 				490E7746219D69720052B71F /* Assets.xcassets */,
 				490E7748219D69720052B71F /* LaunchScreen.storyboard */,
 				490E774B219D69720052B71F /* Info.plist */,
-				490E775E219D70D70052B71F /* GameDetailViewController.swift */,
 				490E7760219D769B0052B71F /* GameTableViewController.swift */,
 				495F58D8219DA8570025388D /* GameSelectTableViewController.swift */,
 				490E775A219D703F0052B71F /* GameType.swift */,
@@ -99,6 +105,9 @@
 				49477EB321A6E46000B2B321 /* LoginViewController.swift */,
 				49477EB521A6F24600B2B321 /* SignUpViewController.swift */,
 				49477EB721A6F27200B2B321 /* ForgotPasswordViewController.swift */,
+				49FD739921AD74060086E2FE /* HigherLowerViewController.swift */,
+				4963F00421B00469006B556D /* Categories.swift */,
+				49A07FA421B01C1C00BD3DD9 /* QuizTableViewController.swift */,
 			);
 			path = SocialityProject;
 			sourceTree = "<group>";
@@ -213,6 +222,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SocialityProject/Pods-SocialityProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -221,6 +234,10 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -237,15 +254,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A07FA521B01C1C00BD3DD9 /* QuizTableViewController.swift in Sources */,
 				49477EB421A6E46000B2B321 /* LoginViewController.swift in Sources */,
-				490E775F219D70D70052B71F /* GameDetailViewController.swift in Sources */,
 				49477EB621A6F24600B2B321 /* SignUpViewController.swift in Sources */,
 				490E775B219D703F0052B71F /* GameType.swift in Sources */,
 				495F58DB219DA9EA0025388D /* Games.swift in Sources */,
+				4963F00521B00469006B556D /* Categories.swift in Sources */,
 				49477EB821A6F27200B2B321 /* ForgotPasswordViewController.swift in Sources */,
+				49FD739A21AD74060086E2FE /* HigherLowerViewController.swift in Sources */,
 				490E7740219D69700052B71F /* AppDelegate.swift in Sources */,
 				490E7761219D769B0052B71F /* GameTableViewController.swift in Sources */,
 				495F58D9219DA8570025388D /* GameSelectTableViewController.swift in Sources */,
+				49FD739821AD5DD60086E2FE /* DicerollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
