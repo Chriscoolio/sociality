@@ -38,7 +38,7 @@ class LoginViewController: UIViewController {
                 if error == nil {
                     print("You have successfully logged in!")
                     
-                    let viewController = self.storyboard?.instantiateViewController(withIdentifier: "Games")
+                    let viewController = self.storyboard?.instantiateViewController(withIdentifier: "GamesNavigator")
                     self.present(viewController!, animated: true, completion: nil)
                     
                 } else {

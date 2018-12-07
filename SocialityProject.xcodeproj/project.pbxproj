@@ -11,18 +11,22 @@
 		490E7747219D69720052B71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490E7746219D69720052B71F /* Assets.xcassets */; };
 		490E774A219D69720052B71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490E7748219D69720052B71F /* LaunchScreen.storyboard */; };
 		490E7753219D6E930052B71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490E7751219D6E930052B71F /* Main.storyboard */; };
-		490E775B219D703F0052B71F /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E775A219D703F0052B71F /* GameType.swift */; };
-		490E7761219D769B0052B71F /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E7760219D769B0052B71F /* GameTableViewController.swift */; };
 		493D09CF21A6DC2900284EF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 493D09CE21A6DC2800284EF4 /* GoogleService-Info.plist */; };
 		49477EB421A6E46000B2B321 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49477EB321A6E46000B2B321 /* LoginViewController.swift */; };
 		49477EB621A6F24600B2B321 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49477EB521A6F24600B2B321 /* SignUpViewController.swift */; };
 		49477EB821A6F27200B2B321 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49477EB721A6F27200B2B321 /* ForgotPasswordViewController.swift */; };
-		495F58D9219DA8570025388D /* GameSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F58D8219DA8570025388D /* GameSelectTableViewController.swift */; };
+		4948062B21B6B71700ACFCD3 /* SocialGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948062A21B6B71700ACFCD3 /* SocialGameViewController.swift */; };
 		495F58DB219DA9EA0025388D /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F58DA219DA9EA0025388D /* Games.swift */; };
 		4963F00521B00469006B556D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963F00421B00469006B556D /* Categories.swift */; };
-		49A07FA521B01C1C00BD3DD9 /* QuizTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A07FA421B01C1C00BD3DD9 /* QuizTableViewController.swift */; };
+		49A07FA721B178F100BD3DD9 /* QuizGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A07FA621B178F100BD3DD9 /* QuizGameViewController.swift */; };
+		49EDCFD221B956AC00C3D8C1 /* ExpandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EDCFD121B956AC00C3D8C1 /* ExpandableView.swift */; };
+		49EDCFD521B95EEF00C3D8C1 /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EDCFD321B95EEF00C3D8C1 /* SimpleViewController.swift */; };
+		49EDCFD621B95EEF00C3D8C1 /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EDCFD421B95EEF00C3D8C1 /* SimpleViewController.xib */; };
+		49EDCFD821B9699A00C3D8C1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EDCFD721B9699A00C3D8C1 /* GameViewController.swift */; };
 		49FD739821AD5DD60086E2FE /* DicerollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD739721AD5DD60086E2FE /* DicerollViewController.swift */; };
 		49FD739A21AD74060086E2FE /* HigherLowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD739921AD74060086E2FE /* HigherLowerViewController.swift */; };
+		49FFFDE321BA001B0071B0B3 /* AppGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFFDE221BA001B0071B0B3 /* AppGames.swift */; };
+		49FFFDE621BAE5600071B0B3 /* ScoreBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFFDE521BAE5600071B0B3 /* ScoreBoardViewController.swift */; };
 		603E196ABC41C1AF16D22859 /* Pods_SocialityProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F578A7841DED61CD0C26710 /* Pods_SocialityProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,18 +38,22 @@
 		490E7749219D69720052B71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490E774B219D69720052B71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490E7752219D6E930052B71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Library/Autosave Information/Sociality/Sociality/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		490E775A219D703F0052B71F /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
-		490E7760219D769B0052B71F /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
 		493D09CE21A6DC2800284EF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49477EB321A6E46000B2B321 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		49477EB521A6F24600B2B321 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		49477EB721A6F27200B2B321 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
-		495F58D8219DA8570025388D /* GameSelectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectTableViewController.swift; sourceTree = "<group>"; };
+		4948062A21B6B71700ACFCD3 /* SocialGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialGameViewController.swift; sourceTree = "<group>"; };
 		495F58DA219DA9EA0025388D /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
 		4963F00421B00469006B556D /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
-		49A07FA421B01C1C00BD3DD9 /* QuizTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewController.swift; sourceTree = "<group>"; };
+		49A07FA621B178F100BD3DD9 /* QuizGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGameViewController.swift; sourceTree = "<group>"; };
+		49EDCFD121B956AC00C3D8C1 /* ExpandableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableView.swift; sourceTree = "<group>"; };
+		49EDCFD321B95EEF00C3D8C1 /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
+		49EDCFD421B95EEF00C3D8C1 /* SimpleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleViewController.xib; sourceTree = "<group>"; };
+		49EDCFD721B9699A00C3D8C1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		49FD739721AD5DD60086E2FE /* DicerollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicerollViewController.swift; sourceTree = "<group>"; };
 		49FD739921AD74060086E2FE /* HigherLowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherLowerViewController.swift; sourceTree = "<group>"; };
+		49FFFDE221BA001B0071B0B3 /* AppGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGames.swift; sourceTree = "<group>"; };
+		49FFFDE521BAE5600071B0B3 /* ScoreBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardViewController.swift; sourceTree = "<group>"; };
 		B7873E5C6F73B8D847CB5B19 /* Pods-SocialityProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialityProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialityProject/Pods-SocialityProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D41C77BDD23AC29E5051D840 /* Pods-SocialityProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialityProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialityProject/Pods-SocialityProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,9 +105,6 @@
 				490E7746219D69720052B71F /* Assets.xcassets */,
 				490E7748219D69720052B71F /* LaunchScreen.storyboard */,
 				490E774B219D69720052B71F /* Info.plist */,
-				490E7760219D769B0052B71F /* GameTableViewController.swift */,
-				495F58D8219DA8570025388D /* GameSelectTableViewController.swift */,
-				490E775A219D703F0052B71F /* GameType.swift */,
 				495F58DA219DA9EA0025388D /* Games.swift */,
 				493D09CE21A6DC2800284EF4 /* GoogleService-Info.plist */,
 				49477EB321A6E46000B2B321 /* LoginViewController.swift */,
@@ -107,7 +112,14 @@
 				49477EB721A6F27200B2B321 /* ForgotPasswordViewController.swift */,
 				49FD739921AD74060086E2FE /* HigherLowerViewController.swift */,
 				4963F00421B00469006B556D /* Categories.swift */,
-				49A07FA421B01C1C00BD3DD9 /* QuizTableViewController.swift */,
+				49A07FA621B178F100BD3DD9 /* QuizGameViewController.swift */,
+				4948062A21B6B71700ACFCD3 /* SocialGameViewController.swift */,
+				49EDCFD121B956AC00C3D8C1 /* ExpandableView.swift */,
+				49EDCFD321B95EEF00C3D8C1 /* SimpleViewController.swift */,
+				49EDCFD421B95EEF00C3D8C1 /* SimpleViewController.xib */,
+				49EDCFD721B9699A00C3D8C1 /* GameViewController.swift */,
+				49FFFDE221BA001B0071B0B3 /* AppGames.swift */,
+				49FFFDE521BAE5600071B0B3 /* ScoreBoardViewController.swift */,
 			);
 			path = SocialityProject;
 			sourceTree = "<group>";
@@ -133,6 +145,7 @@
 				490E7739219D69700052B71F /* Frameworks */,
 				490E773A219D69700052B71F /* Resources */,
 				CE15219F1130554A2D6D411D /* [CP] Embed Pods Frameworks */,
+				49FFFDE421BAB7390071B0B3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -181,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EDCFD621B95EEF00C3D8C1 /* SimpleViewController.xib in Resources */,
 				490E7753219D6E930052B71F /* Main.storyboard in Resources */,
 				493D09CF21A6DC2900284EF4 /* GoogleService-Info.plist in Resources */,
 				490E774A219D69720052B71F /* LaunchScreen.storyboard in Resources */,
@@ -191,6 +205,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		49FFFDE421BAB7390071B0B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
 		700B8AAF5D491D53C380F4C0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,17 +286,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A07FA521B01C1C00BD3DD9 /* QuizTableViewController.swift in Sources */,
+				49EDCFD821B9699A00C3D8C1 /* GameViewController.swift in Sources */,
 				49477EB421A6E46000B2B321 /* LoginViewController.swift in Sources */,
 				49477EB621A6F24600B2B321 /* SignUpViewController.swift in Sources */,
-				490E775B219D703F0052B71F /* GameType.swift in Sources */,
+				4948062B21B6B71700ACFCD3 /* SocialGameViewController.swift in Sources */,
 				495F58DB219DA9EA0025388D /* Games.swift in Sources */,
+				49FFFDE321BA001B0071B0B3 /* AppGames.swift in Sources */,
 				4963F00521B00469006B556D /* Categories.swift in Sources */,
+				49EDCFD221B956AC00C3D8C1 /* ExpandableView.swift in Sources */,
 				49477EB821A6F27200B2B321 /* ForgotPasswordViewController.swift in Sources */,
 				49FD739A21AD74060086E2FE /* HigherLowerViewController.swift in Sources */,
 				490E7740219D69700052B71F /* AppDelegate.swift in Sources */,
-				490E7761219D769B0052B71F /* GameTableViewController.swift in Sources */,
-				495F58D9219DA8570025388D /* GameSelectTableViewController.swift in Sources */,
+				49A07FA721B178F100BD3DD9 /* QuizGameViewController.swift in Sources */,
+				49EDCFD521B95EEF00C3D8C1 /* SimpleViewController.swift in Sources */,
+				49FFFDE621BAE5600071B0B3 /* ScoreBoardViewController.swift in Sources */,
 				49FD739821AD5DD60086E2FE /* DicerollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 86QK2T6A6N;
 				INFOPLIST_FILE = SocialityProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -432,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 86QK2T6A6N;
 				INFOPLIST_FILE = SocialityProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

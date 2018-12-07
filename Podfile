@@ -11,5 +11,11 @@ target 'SocialityProject' do
 	pod 'FBSDKCoreKit'
     pod 'FBSDKLoginKit'
     pod 'FBSDKShareKit'
+    pod 'Fabric', '~> 1.9.0'
+    pod 'Crashlytics', '~> 3.12.0'
+    pod 'SwiftMonkeyPaws', '~> 2.1.0'
+    pod 'SwiftMonkey', '~> 2.1.0'
 
 end
+
+

@@ -9,6 +9,25 @@
 import UIKit
 
 class HigherLowerViewController: UIViewController {
+    @IBOutlet weak var startbutton: UIButton!
+    
+    @IBOutlet weak var higher: UIButton!
+    
+    @IBOutlet weak var lower: UIButton!
+    
+    @IBAction func clickStartButton(_ sender: Any) {
+        
+        self.startbutton.isHidden = true
+        self.higher.isHidden = false
+        self.lower.isHidden = false
+        self.addPlayer.isHidden = true
+        self.playerText.isHidden = true
+        playerTurn.text = "It's your turn " + players[0]
+        
+        cardFlip(isOpen: isOpen, card: cardValue)
+        
+    }
+    
     var cardValue = ""
     var deck = [Card]()
     var newCard = Card.init(rank: HigherLowerViewController.Rank(rawValue: 1)!, suit: HigherLowerViewController.Suit.Clubs)
@@ -72,11 +91,46 @@ class HigherLowerViewController: UIViewController {
         
     }
 
-
+    
+    @IBOutlet weak var playerTurn: UILabel!
+    
     @IBOutlet weak var CurrentCard: UIImageView!
+    @IBOutlet weak var playerText: UITextField!
+    
     @IBOutlet weak var UsedCards: UIImageView!
     var isOpen = false
-    
+    var players = [String]()
+    var count = 0
+    @IBOutlet weak var addPlayer: UIButton!
+    @IBAction func ClickAddPlayer(_ sender: Any) {
+        if playerText.text == "" {
+            let alert = UIAlertController(title: "Error", message: "Please enter a player name", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        } else{
+        count += 1
+        
+        if count <= 4 {
+            players.append(playerText.text!)
+            
+            playerTurn.text = "Please enter player" + String(count+1) + "'s name"
+            
+            playerText.text = ""
+            
+            self.startbutton.isHidden = false
+
+        }
+        if count == 4{
+            addPlayer.isHidden = true
+            playerText.isHidden = true
+            playerTurn.text = "There is no room for more players"
+            self.startbutton.isHidden = false
+            
+        }
+        }
+    }
+    var winCount = 0
+    var playerCount = 0
     @IBAction func HigherButton(_ sender: Any) {
         isOpen = true
         cardFlip(isOpen: isOpen, card: "cardDeck")
@@ -102,10 +156,31 @@ class HigherLowerViewController: UIViewController {
             
             
             if newrank >= oldrank{
-                print("win")
+                winCount += 1
+                if winCount == 3 {
+                    let alertController = UIAlertController(title: "You've won", message: "You guessed three in a row, it's the next players turn", preferredStyle: .alert)
+                    alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                    self.present(alertController, animated: true)
+                    winCount = 0
+                    playerCount += 1
+                    if playerCount < count{
+                        print(playerCount)
+                        print(players[playerCount])
+                        playerTurn.text = "It's your turn " + players[playerCount]
+                        playerCount += 1
+                        
+                    }else {
+                        playerCount = 0
+                        playerTurn.text = "It's your turn " + players[0]
+                        playerCount += 1
+                    }
+                }
                 
             } else {
-                print("lose")
+                winCount = 0
+                let alertController = UIAlertController(title: "You guessed wrong", message: "Have a sip of your drink and try again", preferredStyle: .alert)
+                alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                self.present(alertController, animated: true)
             }
             
             oldCard = newCard
@@ -139,11 +214,32 @@ class HigherLowerViewController: UIViewController {
             print(String(newrank) + " " + String(oldrank))
 
             if newrank <= oldrank{
-                print("win")
+                winCount += 1
+                if winCount == 3 {
+                    let alertController = UIAlertController(title: "You've won", message: "You guessed three in a row, it's the next players turn", preferredStyle: .alert)
+                    alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                    self.present(alertController, animated: true)
+                    playerCount += 1
+                    winCount = 0
+                    if playerCount < count{
+                        print(playerCount)
+                        print(players[playerCount])
+                        playerTurn.text = "It's your turn " + players[playerCount]
+                        playerCount += 1
+                        
+                    }else {
+                        playerCount = 0
+                        playerTurn.text = "It's your turn " + players[0]
+                        playerCount += 1
+                    }
+                }
                 
             } else {
 
-                print("lose")
+                winCount = 0
+                let alertController = UIAlertController(title: "You guessed wrong", message: "Have a sip of your drink and try again", preferredStyle: .alert)
+                alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                self.present(alertController, animated: true)
             }
             
             oldCard = newCard
@@ -168,36 +264,31 @@ class HigherLowerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.startbutton.backgroundColor = UIColor.green
+        self.higher.backgroundColor = UIColor.green
+        self.lower.backgroundColor = UIColor.red
+        
+        self.higher.layer.cornerRadius = 23
+        self.lower.layer.cornerRadius = 23
+        self.startbutton.layer.cornerRadius = 23
+        
+        self.higher.isHidden = true
+        self.lower.isHidden = true
+        
+        self.addPlayer.backgroundColor = UIColor.white
+        self.addPlayer.layer.cornerRadius = 14
+        
+        
         self.view.backgroundColor = UIColor(patternImage: UIImage(named:"backgroundgradient2")!)
         CurrentCard.image = UIImage(named: "cardDeck")
-        
+        playerTurn.text = "Please enter player1's name"
         deck = Card.createDeck()
         oldCard = deck[0]
         cardValue = String(oldCard.rank.desc()) + oldCard.suit.desc()
         print(cardValue)
-        cardFlip(isOpen: isOpen, card: cardValue)
+        self.startbutton.isHidden = true
+        //cardFlip(isOpen: isOpen, card: cardValue)
         deck.remove(at: 0)
-        
-        
-        
-        
-        
-        
-        
-        
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

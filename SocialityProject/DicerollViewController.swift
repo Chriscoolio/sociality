@@ -10,25 +10,36 @@ import UIKit
 
 class DicerollViewController: UIViewController {
     @IBOutlet weak var dice1: UIImageView!
-
+    @IBOutlet weak var dice2: UIImageView!
     
+    @IBOutlet weak var diceRoll: UIButton!
     @IBAction func diceroll(_ sender: Any) {
         let number = Int.random(in: 1...6)
         let roll = String(number)
         let number1 = Int.random(in: 1...6)
         let roll1 = String(number1)
-        self.dice1.image = UIImage(named: roll)
-        self.dice2.image = UIImage(named: roll1)
+    
+       Roll(roll: roll, roll1: roll1)
+    }
+    func Roll(roll: String, roll1: String){
+        
+            self.dice1.image = UIImage(named: roll)
+            self.dice2.image = UIImage(named: roll1)
+            UIView.transition(with: dice1, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
+            UIView.transition(with: dice2, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
         
     }
+
     
-    @IBOutlet weak var dice2: UIImageView!
+    
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"backgroundPhoto")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"backgroundgradient2")!)
+        self.diceRoll.layer.cornerRadius = 10
+
 
         dice1.image = UIImage(named: "1")
         dice2.image = UIImage(named: "2")
